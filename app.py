@@ -14,7 +14,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 nltk.download('punkt')
 
 # Load intents.json file (ensure it's in the same directory as this script)
-file_path = os.path.abspath("D://vs_code//Implementation_of_chatbot_using_NLP//intents.json")
+file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "intents.json"))
 
 try:
     with open(file_path, "r", encoding="utf-8") as file:
