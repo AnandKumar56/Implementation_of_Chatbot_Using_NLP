@@ -2,7 +2,6 @@ import os
 import json
 import datetime
 import csv
-pip install nltk
 import nltk
 import ssl
 import streamlit as st
