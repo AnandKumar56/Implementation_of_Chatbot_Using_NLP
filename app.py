@@ -91,7 +91,7 @@ def main():
                 for row in csv_reader:
                     st.text(f"User: {row[1]}")
                     st.text(f"Chatbot: {row[2]}")
-                    st.text(f"Timestamp: {row[0]}")
+                    st.text(f"Timestamp: {row[3]}")
                     st.markdown("---")
         else:
             st.warning("No conversation history found.")
